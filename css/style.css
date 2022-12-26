@@ -1829,6 +1829,7 @@ textarea.input {
 .rating__body::before {
   content: "\e90b\e90b\e90b\e90b\e90b";
   color: #52503B;
+  letter-spacing: 0.3125rem;
 }
 
 .rating__active {
@@ -1848,6 +1849,7 @@ textarea.input {
   top: 0;
   left: 0;
   color: #52503B;
+  letter-spacing: 0.3125rem;
 }
 
 .rating__items {
@@ -2817,6 +2819,12 @@ body::after {
       -ms-flex-align: center;
           align-items: center;
   gap: 0.5rem;
+  padding: 0.3125rem;
+  border: 0.0625rem solid transparent;
+  border-radius: 0.625rem;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .list-main__icon {
@@ -2837,6 +2845,7 @@ body::after {
 }
 
 .list-main__icon img {
+  padding: 0.3125rem;
   max-width: 100%;
 }
 
@@ -4479,6 +4488,11 @@ body::after {
 
   .card-listing__link-name:hover {
     text-decoration: underline;
+  }
+
+  .list-main__item:hover {
+    border: 0.0625rem solid rgba(202, 204, 209, 0.2);
+    background-color: #fafafc;
   }
 
   .news__link:hover {
